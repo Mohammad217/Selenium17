@@ -1,7 +1,6 @@
 package selenium173;
 
 import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -10,7 +9,7 @@ public class Seleniumclass40 {
 
 
 		public static void main(String[] args) throws InterruptedException {
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\alaud\\eclipse-workspace\\Seleniumcssmethod\\Jars\\chromedriver_win32\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\alaud\\eclipse-workspace\\Jars\\chromedriver_win32\\chromedriver.exe");
 		
 	     WebDriver dcss=new ChromeDriver();
 	     dcss.get("https://www.facebook.com/");
@@ -41,7 +40,7 @@ public class Seleniumclass40 {
 //	     
 	    
 	     
-	     Thread.sleep(3000);
+	     Thread.sleep(4000);
 	     dcss.close();
 
 	}
